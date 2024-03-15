@@ -123,7 +123,7 @@ Fluid.events = {
           easing   : 'swing'
         });
       });
-    }
+    },
   // registerScrollTopArrowEvent: function() {
   //   var topArrow = jQuery('#scroll-top-button');
   //   if (topArrow.length === 0) {

@@ -16,21 +16,22 @@
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
   
-    <meta name="description" content="🏫 主要经历   🚗 | 本科 | 东北林业大学 - 交通学院 - 车辆工程 - 结构设计 💻 | 硕士 | 中国农业大学 - 工学院 - 机械类 - 计算机视觉应用 😊 | 工作 | 经纬恒润 - ICS算法二部 - 算法工程师  📚 成果   Google Scholar Link   📃 Paper  2022 - Remote Sensing - Two-Stage Convo">
-<meta property="og:type" content="website">
-<meta property="og:title" content="关于">
-<meta property="og:url" content="http://example.com/about/index.html">
+    <meta name="description" content="pytorch安装测试  12345import torchimport mathprint(torch.backends.mps.is_available())print(torch.backends.mps.is_built()) 返回为True，True pytorch简单训练测试12345678910111213141516171819202122232425262728293031323">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Mac中mps加速测试">
+<meta property="og:url" content="http://example.com/2024/03/18/Mac%E4%B8%ADmps%E5%8A%A0%E9%80%9F%E6%B5%8B%E8%AF%95/index.html">
 <meta property="og:site_name" content="Boyuan Liu&#39;s Blog">
-<meta property="og:description" content="🏫 主要经历   🚗 | 本科 | 东北林业大学 - 交通学院 - 车辆工程 - 结构设计 💻 | 硕士 | 中国农业大学 - 工学院 - 机械类 - 计算机视觉应用 😊 | 工作 | 经纬恒润 - ICS算法二部 - 算法工程师  📚 成果   Google Scholar Link   📃 Paper  2022 - Remote Sensing - Two-Stage Convo">
+<meta property="og:description" content="pytorch安装测试  12345import torchimport mathprint(torch.backends.mps.is_available())print(torch.backends.mps.is_built()) 返回为True，True pytorch简单训练测试12345678910111213141516171819202122232425262728293031323">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2024-03-15T09:54:09.812Z">
-<meta property="article:modified_time" content="2024-03-15T09:54:09.812Z">
+<meta property="article:published_time" content="2024-03-18T02:14:59.000Z">
+<meta property="article:modified_time" content="2024-03-18T02:23:03.103Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="pytorch、mac">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>关于 - Boyuan Liu&#39;s Blog</title>
+  <title>Mac中mps加速测试 - Boyuan Liu&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -94,7 +95,7 @@
   <header>
     
 
-<div class="header-inner" style="height: 60vh;">
+<div class="header-inner" style="height: 50vh;">
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
@@ -197,13 +198,53 @@
 <div id="banner" class="banner" parallax=true
      style="background: url('/img/1.jpg') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
-    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.5)">
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="关于"></span>
+            <span id="subtitle" data-typed-text="Mac中mps加速测试"></span>
           
         </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2024-03-18 10:14" pubdate>
+          2024年3月18日 上午
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          189 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          2 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
 
         
       </div>
@@ -219,98 +260,142 @@
 
   <main>
     
-      <div class="container nopadding-x-md">
-        <div id="board"
-          >
-          
-            <div class="about-avatar">
-              <img src="/img/me.jpeg" srcset="/img/loading.gif" lazyload class="img-fluid" alt="avatar">
-            </div>
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
+      
 
-<div class="text-center">
-  <div class="about-info">
-    <div class="about-name">刘博远（Boyuan Liu）</div>
-    <div class="about-intro">Algorithm Engineer</div>
-    <div class="about-icons">
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
       
-        
-        
-        
-        <a href=mailto:liuboyuanl@outlook.com class="
-           hint--bottom hint--rounded"
-           aria-label=liuboyuanl@outlook.com
-           target="_blank"
-        >
-          <i class="iconfont icon-mail" aria-hidden="true"></i>
-          
-        </a>
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">Mac中mps加速测试</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <h3 id="pytorch安装测试"><a href="#pytorch安装测试" class="headerlink" title="pytorch安装测试"></a>pytorch安装测试</h3><br>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> torch<br><span class="hljs-keyword">import</span> math<br><br><span class="hljs-built_in">print</span>(torch.backends.mps.is_available())<br><span class="hljs-built_in">print</span>(torch.backends.mps.is_built())<br></code></pre></td></tr></table></figure>
+<p>返回为<code>True</code>，<code>True</code><br><br></p>
+<h3 id="pytorch简单训练测试"><a href="#pytorch简单训练测试" class="headerlink" title="pytorch简单训练测试"></a>pytorch简单训练测试</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><code class="hljs python">dtype = torch.<span class="hljs-built_in">float</span><br>device = torch.device(<span class="hljs-string">&quot;mps&quot;</span>)<br><br><span class="hljs-comment"># Create random input and output data</span><br>x = torch.linspace(-math.pi, math.pi, <span class="hljs-number">2000</span>, device=device, dtype=dtype)<br>y = torch.sin(x)<br><br><span class="hljs-comment"># Randomly initialize weights</span><br>a = torch.randn((), device=device, dtype=dtype)<br>b = torch.randn((), device=device, dtype=dtype)<br>c = torch.randn((), device=device, dtype=dtype)<br>d = torch.randn((), device=device, dtype=dtype)<br><br>learning_rate = <span class="hljs-number">1e-6</span><br><span class="hljs-keyword">for</span> t <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(<span class="hljs-number">2000</span>):<br>    <span class="hljs-comment"># Forward pass: compute predicted y</span><br>    y_pred = a + b * x + c * x ** <span class="hljs-number">2</span> + d * x ** <span class="hljs-number">3</span><br><br>    <span class="hljs-comment"># Compute and print loss</span><br>    loss = (y_pred - y).<span class="hljs-built_in">pow</span>(<span class="hljs-number">2</span>).<span class="hljs-built_in">sum</span>().item()<br>    <span class="hljs-keyword">if</span> t % <span class="hljs-number">100</span> == <span class="hljs-number">99</span>:<br>        <span class="hljs-built_in">print</span>(t, loss)<br><br><span class="hljs-comment"># Backprop to compute gradients of a, b, c, d with respect to loss</span><br>    grad_y_pred = <span class="hljs-number">2.0</span> * (y_pred - y)<br>    grad_a = grad_y_pred.<span class="hljs-built_in">sum</span>()<br>    grad_b = (grad_y_pred * x).<span class="hljs-built_in">sum</span>()<br>    grad_c = (grad_y_pred * x ** <span class="hljs-number">2</span>).<span class="hljs-built_in">sum</span>()<br>    grad_d = (grad_y_pred * x ** <span class="hljs-number">3</span>).<span class="hljs-built_in">sum</span>()<br><br>    <span class="hljs-comment"># Update weights using gradient descent</span><br>    a -= learning_rate * grad_a<br>    b -= learning_rate * grad_b<br>    c -= learning_rate * grad_c<br>    d -= learning_rate * grad_d<br><br><br><span class="hljs-built_in">print</span>(<span class="hljs-string">f&#x27;Result: y = <span class="hljs-subst">&#123;a.item()&#125;</span> + <span class="hljs-subst">&#123;b.item()&#125;</span> x + <span class="hljs-subst">&#123;c.item()&#125;</span> x^2 + <span class="hljs-subst">&#123;d.item()&#125;</span> x^3&#x27;</span>)<br></code></pre></td></tr></table></figure>
+<p>可以正常训练迭代，结果如下：</p>
+<p>{ % assert_img Xnip2024-03-18_10-21-14.jpg mac中torch简单迭代结果 %}</p>
+<br>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
       
-        
-        
-        
-        <a  class="qr-trigger
-           "
-           
-           target="_self"
-        >
-          <i class="iconfont icon-wechat-fill" aria-hidden="true"></i>
-          
-            <img class="qr-img" src="/img/wechat.jpg" srcset="/img/loading.gif" lazyload alt="qrcode" />
-          
-        </a>
+        <a href="/tags/pytorch%E3%80%81mac/" class="print-no-link">#pytorch、mac</a>
       
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>Mac中mps加速测试</div>
+      <div>http://example.com/2024/03/18/Mac中mps加速测试/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>John Doe</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2024年3月18日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2024/03/14/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/" title="测试文章">
+                        <span class="hidden-mobile">测试文章</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
     </div>
   </div>
 </div>
 
-<article class="about-content page-content mt-5">
-  <div class="markdown-body">
-    <h3 id="🏫-主要经历"><a href="#🏫-主要经历" class="headerlink" title="🏫 主要经历"></a>🏫 主要经历</h3><br>
-
-<ul>
-<li>🚗 | 本科 | 东北林业大学 - 交通学院 - 车辆工程 - 结构设计</li>
-<li>💻 | 硕士 | 中国农业大学 - 工学院 - 机械类 - 计算机视觉应用</li>
-<li>😊 | 工作 | 经纬恒润 - ICS算法二部 - 算法工程师</li>
-</ul>
-<h3 id="📚-成果"><a href="#📚-成果" class="headerlink" title="📚 成果"></a>📚 成果</h3><br>
-
-<blockquote>
-<p><strong><a target="_blank" rel="noopener" href="https://scholar.google.com/citations?hl=zh-CN&user=lEasHEMAAAAJ">Google Scholar Link</a></strong><br><br></p>
-</blockquote>
-<blockquote>
-<p><strong>📃 Paper</strong></p>
-<ul>
-<li>2022 - Remote Sensing - <a target="_blank" rel="noopener" href="https://www.mdpi.com/2072-4292/14/11/2519">Two-Stage Convolutional Neural Networks for Diagnosing the Severity of Alternaria Leaf Blotch Disease of the Apple Tree</a></li>
-<li>2023 - Sensors - <a target="_blank" rel="noopener" href="https://www.mdpi.com/1424-8220/23/5/2668">Discrimination of Deoxynivalenol Levels of Barley Kernels Using Hyperspectral Imaging in Tandem with Optimized Convolutional Neural Network</a><br></li>
-</ul>
-</blockquote>
-<h3 id="🎉-奖励情况"><a href="#🎉-奖励情况" class="headerlink" title="🎉 奖励情况"></a>🎉 奖励情况</h3><br>
-
-<blockquote>
-<p><strong>💻 | 硕士 | 中国农业大学</strong></p>
-<ul>
-<li>五征专项奖学金</li>
-<li>硕士一等学业奖学金</li>
-<li>中国农业大学三好学生<br></li>
-</ul>
-</blockquote>
-<blockquote>
-<p><strong>🚗 | 本科 | 东北林业大学</strong></p>
-<ul>
-<li>二等学业奖学金、三等学业奖学金</li>
-</ul>
-</blockquote>
-
-  </div>
-
-  
-</article>
-
 
 
 
@@ -337,11 +422,8 @@
 
 
 
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+
     
 
     
@@ -434,6 +516,46 @@
   
 
 
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
 
 
   <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>

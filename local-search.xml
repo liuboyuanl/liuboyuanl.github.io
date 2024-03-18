@@ -22,18 +22,5 @@
   
   
   
-  <entry>
-    <title>测试文章</title>
-    <link href="/2024/03/14/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
-    <url>/2024/03/14/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
-    
-    <content type="html"><![CDATA[<p>这是一篇测试文章</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> numpy<br><br>a = numpy.array([<span class="hljs-number">1</span>])<br>b = numpy.<span class="hljs-built_in">sum</span>(a)<br><br><span class="hljs-built_in">print</span>(b)<br></code></pre></td></tr></table></figure><img src="/2024/03/14/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/test.jpeg" class="" title="图片引用方法一">]]></content>
-    
-    
-    
-  </entry>
-  
-  
-  
   
 </search>

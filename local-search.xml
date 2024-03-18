@@ -4,6 +4,27 @@
   
   
   <entry>
+    <title>Pytorch模型部署（ONNX）</title>
+    <link href="/2024/03/18/PyTorch%E6%A8%A1%E5%9E%8B%E9%83%A8%E7%BD%B2%EF%BC%88ONNX%EF%BC%89/"/>
+    <url>/2024/03/18/PyTorch%E6%A8%A1%E5%9E%8B%E9%83%A8%E7%BD%B2%EF%BC%88ONNX%EF%BC%89/</url>
+    
+    <content type="html"><![CDATA[<p>使用ONNX、ONNX Runtime部署PyTorch模型，并使用C++进行推理</p><span id="more"></span><h2 id="1-环境配置"><a href="#1-环境配置" class="headerlink" title="1 环境配置"></a>1 环境配置</h2><br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_">$ </span><span class="language-bash">pip install onnx</span><br><span class="hljs-meta prompt_">$ </span><span class="language-bash">pip install onnxruntime</span><br></code></pre></td></tr></table></figure><p>安装<code>ONNX</code>及<code>ONNX Runtime</code></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>PyTorch</tag>
+      
+      <tag>Mac</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Mac中mps加速测试</title>
     <link href="/2024/03/18/Mac%E4%B8%ADmps%E5%8A%A0%E9%80%9F%E6%B5%8B%E8%AF%95/"/>
     <url>/2024/03/18/Mac%E4%B8%ADmps%E5%8A%A0%E9%80%9F%E6%B5%8B%E8%AF%95/</url>
@@ -14,9 +35,9 @@
     
     <tags>
       
-      <tag>pytorch</tag>
+      <tag>PyTorch</tag>
       
-      <tag>mac</tag>
+      <tag>Mac</tag>
       
     </tags>
     

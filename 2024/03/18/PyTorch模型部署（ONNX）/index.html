@@ -24,7 +24,7 @@
 <meta property="og:description" content="使用ONNX、ONNX Runtime部署PyTorch模型，并使用C++进行推理">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-03-18T03:32:00.000Z">
-<meta property="article:modified_time" content="2024-03-18T11:40:00.370Z">
+<meta property="article:modified_time" content="2024-03-19T11:11:09.188Z">
 <meta property="article:author" content="Boyuan Liu">
 <meta property="article:tag" content="PyTorch">
 <meta property="article:tag" content="Mac">
@@ -316,6 +316,7 @@
 <h2 id="5-Python推理"><a href="#5-Python推理" class="headerlink" title="5 Python推理"></a>5 Python推理</h2><br>
 
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np<br><span class="hljs-keyword">from</span> torchvision <span class="hljs-keyword">import</span> datasets<br><span class="hljs-keyword">from</span> torchvision.transforms <span class="hljs-keyword">import</span> ToTensor<br><span class="hljs-keyword">import</span> onnxruntime<br><br>data_dir = <span class="hljs-string">&quot;./py/data&quot;</span><br>onnx_file = <span class="hljs-string">&quot;./py/model_param/model.onnx&quot;</span><br><br>onnx_model = onnxruntime.InferenceSession(onnx_file, providers=[<span class="hljs-string">&quot;CPUExecutionProvider&quot;</span>])<br><span class="hljs-built_in">print</span>(onnx_model)<br><br><span class="hljs-comment"># onnx predict</span><br>onnx_input_name = onnx_model.get_inputs()[<span class="hljs-number">0</span>].name<br>onnx_output_name = onnx_model.get_outputs()[<span class="hljs-number">0</span>].name<br><br>test_data = datasets.FashionMNIST(<br>    root=data_dir,<br>    train=<span class="hljs-literal">False</span>,<br>    download=<span class="hljs-literal">True</span>,<br>    transform=ToTensor(),<br>)<br><br>x = test_data[<span class="hljs-number">6</span>][<span class="hljs-number">0</span>].unsqueeze(<span class="hljs-number">0</span>)<br><br>onnx_x = x.numpy()<br>onnx_pred_y = onnx_model.run([onnx_output_name], &#123;onnx_input_name: onnx_x&#125;)<br><span class="hljs-built_in">print</span>(onnx_pred_y)<br><span class="hljs-built_in">print</span>(<span class="hljs-built_in">int</span>(np.argmax(onnx_pred_y)))<br></code></pre></td></tr></table></figure>
+<br>
                 
               </div>
             
@@ -385,6 +386,12 @@
                 <div class="post-prevnext my-3">
                   <article class="post-prev col-6">
                     
+                    
+                      <a href="/2024/03/20/Pytorch%E6%A8%A1%E5%9E%8B%E9%83%A8%E7%BD%B2%EF%BC%88Libtorch%EF%BC%89/" title="Pytorch模型部署（Libtorch）">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">Pytorch模型部署（Libtorch）</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
                     
                   </article>
                   <article class="post-next col-6">

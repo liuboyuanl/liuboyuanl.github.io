@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Bo-Yuan Liu"
-description              : "Bo-Yuan Liu"
+description              : "Bo-Yuan Liu, Northeastern University"
 repository               : "liuboyuanl/liuboyuanl.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -24,7 +24,7 @@ author:
   name             : "刘博远"
   avatar           : "images/android-chrome-512x512.png"
   bio              : "东北大学"
-  location         : "沈阳市和平区"
+  location         : "Shenyang, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"

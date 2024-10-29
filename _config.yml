@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Bo-Yuan Liu"
-description              : "研究兴趣：计算机视觉、主动立体视觉、结构光三维重建"
+description              : "Bo-Yuan Liu"
 repository               : "liuboyuanl/liuboyuanl.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,9 +21,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "刘博远，Bo-Yuan Liu"
+  name             : "刘博远"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "东北大学（中国）"
+  bio              : "东北大学"
   location         : "沈阳市和平区"
   employer         :
   pubmed           : 

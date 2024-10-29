@@ -25,7 +25,7 @@ redirect_from:
 <!-- - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
-# 📝 文章
+# 📝 Publications
 
 - [Two-Stage Convolutional Neural Networks for Diagnosing the Severity of Alternaria Leaf Blotch Disease of the Apple Tree](https://www.mdpi.com/2072-4292/14/11/2519), ==Bo-Yuan Liu==, Ke-Jun Fan, Wen-Hao Su, Yankun Peng. **Remote Sensing**
 - [Discrimination of Deoxynivalenol Levels of Barley Kernels Using Hyperspectral Imaging in Tandem with Optimized Convolutional Neural Network](https://www.mdpi.com/1424-8220/23/5/2668), Ke-Jun Fan, ==**Bo-Yuan Liu (equal contribution)**==, Wen-Hao Su. **Sensors**
@@ -37,7 +37,8 @@ redirect_from:
 <!-- - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
-# 📖 经历
+# 📖 Experience
+
 - *2024.08 - 至今*，东北大学，信息学院人工智能系，控制工程，**交流学习**. 
 - *2023.07 - 2024.07*，天津经纬恒润科技有限公司，智能座舱事业部，**算法工程师**. 
 - *2021.09 - 2023.06*， 中国农业大学，工学院，机械（农业工程），**硕士**. 

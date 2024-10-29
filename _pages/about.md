@@ -26,7 +26,10 @@ redirect_from:
 
 # 📝 Publications 
 
-- [Two-Stage Convolutional Neural Networks for Diagnosing the Severity of Alternaria Leaf Blotch Disease of the Apple Tree](https://www.mdpi.com/2072-4292/14/11/2519), *Bo-Yuan Liu*, Ke-Jun Fan, Wen-Hao Su, Yankun Peng, **Remote Sensing**
+- [Two-Stage Convolutional Neural Networks for Diagnosing the Severity of Alternaria Leaf Blotch Disease of the Apple Tree](https://www.mdpi.com/2072-4292/14/11/2519), *Bo-Yuan Liu*, Ke-Jun Fan, Wen-Hao Su, Yankun Peng. **Remote Sensing**
+- [Discrimination of Deoxynivalenol Levels of Barley Kernels Using Hyperspectral Imaging in Tandem with Optimized Convolutional Neural Network](https://www.mdpi.com/1424-8220/23/5/2668), Ke-Jun Fan, *Bo-Yuan Liu (equal contribution)*, Wen-Hao Su. **Sensors**
+- [Enhanced Transformer Framework for Multi-label Fine-grained Apple Leaf Disease Diagnosis](https://elibrary.asabe.org/abstract.asp?JID=5&AID=54906&CID=ana2024&T=1), Ke-Jun Fan, Wen-Hao Su, Bo-Yuan Liu, Ce Yang. **ASABE 2024**
+- [Semi-Supervised Deep Learning Framework Based on Modified Pyramid Scene Parsing Network for Multi-Label Fine-Grained Classification and Diagnosis of Apple Leaf Diseases](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4735020), Ke-Jun Fan, *Bo-Yuan Liu (equal contribution)*, Wen-Hao Su, Yankun Peng. **EAAI (under review)**
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 

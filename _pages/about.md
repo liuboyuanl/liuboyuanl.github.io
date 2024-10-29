@@ -17,8 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-- *近期研究兴趣：3-D视觉、结构光深度重建、逆向渲染*
-- *交叉学科领域：计算机/机器视觉、2D目标分割、3D深度估计、三维重建、模型边缘部署、时序信号处理/特征工程、汽车结构设计、有限元/多体动力学分析*
+- *近期研究兴趣：3D视觉、结构光深度重建、逆向渲染*
+- *交叉学科领域：计算机/机器视觉、2D目标分割、3D深度估计、3D重建、计算全息、模型边缘部署、时序信号处理/特征工程、汽车结构设计、有限元/多体动力学分析*
 - *Google Scholar:*  <a href='https://scholar.google.com/citations?user=lEasHEMAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 

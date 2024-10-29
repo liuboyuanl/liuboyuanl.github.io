@@ -6,17 +6,14 @@ main:
   # - title: "News"
   #   url: "/#-news"
 
-  - title: "Publications"
+  - title: "文章"
     url: "/#-publications"
 
   # - title: "Honors and Awards"
   #   url: "/#-honors-and-awards"
 
-  - title: "Educations"
+  - title: "经历"
     url: "/#-educations"
-
-  - title: "Work Experience"
-    url: "/#-work-experience"
 
   # - title: "Invited Talks"
   #   url: "/#-invited-talks"
